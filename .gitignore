@@ -1,0 +1,27 @@
+# Compiled TypeScript output ("start:prod": "node dist/main")
+dist/
+
+# Installed Node packages
+node_modules/
+
+# Environment variables (@nestjs/config)
+.env
+.env.*
+!.env.example
+
+# Jest test coverage ("coverageDirectory": "../coverage")
+coverage/
+
+# Logs & caches
+logs/
+*.log
+npm-debug.log*
+.eslintcache
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+*.png
